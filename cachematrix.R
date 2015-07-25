@@ -1,6 +1,6 @@
-## Function for Caching the Inverse of a Matrix
+## functions for computing and caching inverse of matrix
 
-## Write a short comment describing this function
+## caching inverse matrix
 
 makeCacheMatrix <- function(x = matrix()) {
         s <- NULL
@@ -17,7 +17,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## computing inverse matrix if it isn't in cach
+## and otherwise return it from cach
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
